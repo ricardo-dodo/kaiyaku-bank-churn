@@ -5,3 +5,4 @@ joblib==0.17.0
 matplotlib
 sklearn==0.0.post1
 imblearn==0.0
+gunicorn
