@@ -1,7 +1,7 @@
 flask
 numpy
 statistics
-joblib
+joblib==0.17.0
 os
 matplotlib==3.6.0
 sklearn==0.0.post1
