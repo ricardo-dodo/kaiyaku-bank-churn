@@ -1,9 +1,9 @@
 flask
 numpy
 statistics
-joblib
-collections
+joblib==1.2.0
+collections==0.1.6
 os
-matplotlib
-sklearn
-imblearn
+matplotlib==3.6.0
+sklearn==0.0.post1
+imblearn==0.0
