@@ -1,0 +1,20 @@
+# Gunakan Python 3.8 sebagai base image
+FROM python:3.9-slim-buster
+
+# Set working directory
+WORKDIR /app
+
+# Salin requirements.txt ke dalam Docker image
+COPY requirements.txt ./requirements.txt
+
+# Install dependencies
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Salin semua file lain ke dalam Docker image
+COPY . .
+
+# Ekspose port 5000 agar dapat diakses dari luar
+EXPOSE 5000
+
+# Jalankan aplikasi
+CMD [ "python", "./app.py" ]
