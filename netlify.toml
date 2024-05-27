@@ -1,3 +1,6 @@
 [build]
-  publish = "build"  # Directory where Netlify will look for the build output to publish
+  publish = "build"
   command = "pip3 install -r requirements.txt && python app.py"
+
+[build.environment]
+  PYTHON_VERSION = "3.8.0"
