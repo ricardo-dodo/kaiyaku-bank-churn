@@ -3,6 +3,6 @@ numpy
 statistics
 joblib==0.17.0
 matplotlib
-sklearn==0.0.post1
+scikit-learn
 imblearn==0.0
 gunicorn
