@@ -1,8 +1,8 @@
 flask
 numpy
 statistics
-joblib==0.17.0
+joblib
 matplotlib
-scikit-learn==0.0.post1
-imblearn==0.0
+scikit-learn
+imblearn
 gunicorn
