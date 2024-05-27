@@ -1,6 +1,6 @@
 [build]
   publish = "build"
-  command = "pip3 install -r requirements.txt && python app.py"
+  command = "pip3 install -r requirements.txt && python3 app.py"
 
 [build.environment]
-  PYTHON_VERSION = "3.8.0"
+  PYTHON_VERSION = "3.8"
